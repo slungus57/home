@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -154,7 +155,7 @@
             font-size: 17px;
         }
 
-        /* NOHELLO BUTTON */
+        /* LINK BUTTONS */
 
         .link {
             display: inline-block;
@@ -261,6 +262,68 @@
             animation: scroll 10s linear infinite;
         }
 
+        /* SECOND SECTION */
+
+        .extra-section {
+            margin-top: 80px;
+        }
+
+        .extra-content {
+            padding: 45px 35px 55px;
+            text-align: center;
+        }
+
+        .extra-title {
+            margin: 0;
+
+            font-size: clamp(30px, 6vw, 55px);
+
+            letter-spacing: -2px;
+            line-height: 1;
+        }
+
+        .extra-title span {
+            color: #ff4db8;
+        }
+
+        .extra-subtitle {
+            margin-top: 15px;
+
+            color: #777;
+
+            font-size: 16px;
+        }
+
+        .extra-link {
+            display: inline-block;
+
+            margin-top: 28px;
+
+            padding: 13px 25px;
+
+            background: #ff4db8;
+            color: white;
+
+            text-decoration: none;
+
+            font-weight: bold;
+
+            border: 3px solid #222;
+            border-radius: 8px;
+
+            box-shadow: 5px 5px 0 #222;
+
+            transition: .15s;
+        }
+
+        .extra-link:hover {
+            transform: translate(3px, 3px);
+
+            box-shadow: 2px 2px 0 #222;
+
+            background: #ff319f;
+        }
+
         /* FOOTER */
 
         footer {
@@ -327,6 +390,10 @@
                 padding: 40px 20px;
             }
 
+            .extra-content {
+                padding: 40px 20px 45px;
+            }
+
             .status {
                 display: none;
             }
@@ -358,6 +425,8 @@
     <!-- MAIN WEBSITE -->
 
     <main>
+
+        <!-- FIRST SECTION -->
 
         <div class="window">
 
@@ -472,6 +541,56 @@
 
         </div>
 
+
+        <!-- SECOND SECTION -->
+
+        <div class="window extra-section">
+
+            <!-- SECOND WINDOW HEADER -->
+
+            <div class="window-bar">
+
+                <div class="dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+
+                <div class="window-title">
+                    more stuff.exe
+                </div>
+
+            </div>
+
+
+            <!-- SECOND SECTION CONTENT -->
+
+            <div class="extra-content">
+
+                <h2 class="extra-title">
+                    more <span>stuff!</span>
+                </h2>
+
+                <div class="extra-subtitle">
+                    other things that may or may not be useful
+                </div>
+
+
+                <!-- PIXELCLIENT BACKUP -->
+
+                <a
+                    class="extra-link"
+                    href="https://slungus57.github.io/pixelbackup/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    pixelclient backup (1.8.8) ↗
+                </a>
+
+            </div>
+
+        </div>
+
     </main>
 
 
@@ -525,3 +644,4 @@
 
 </body>
 </html>
+```
